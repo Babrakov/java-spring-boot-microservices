@@ -10,6 +10,8 @@ import win.babrakov.model.Course;
 @RequiredArgsConstructor
 public class CourseJdbcRepository {
 
+    private final JdbcTemplate jdbcTemplate;
+
     private static final String INSERT_QUERY = """
                     insert into course (id,name,author) 
                     values (?, ? , ?)
@@ -20,7 +22,6 @@ public class CourseJdbcRepository {
     private static final String SELECT_QUERY = """
                     select * from course where id=?
             """;
-    private final JdbcTemplate jdbcTemplate;
 
     public void insert(Course course) {
         jdbcTemplate.update(INSERT_QUERY, course.getId(), course.getName(), course.getAuthor());
