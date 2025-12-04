@@ -1,11 +1,10 @@
-package win.babrakov;
+package win.babrakov.functional;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import win.babrakov.jpa.CourseJpaRepository;
-import win.babrakov.model.Course;
-import win.babrakov.springdata.CourseSpringDataJpaRepository;
+import win.babrakov.functional.model.Course;
+import win.babrakov.functional.springdata.CourseSpringDataJpaRepository;
 
 @Component
 @RequiredArgsConstructor

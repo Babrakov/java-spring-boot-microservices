@@ -1,4 +1,4 @@
-package win.babrakov.model;
+package win.babrakov.functional.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

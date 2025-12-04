@@ -1,4 +1,4 @@
-package win.babrakov;
+package win.babrakov.functional;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

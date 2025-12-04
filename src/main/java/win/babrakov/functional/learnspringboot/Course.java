@@ -1,4 +1,4 @@
-package win.babrakov.learnspringboot;
+package win.babrakov.functional.learnspringboot;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package win.babrakov.learnspringboot;
+package win.babrakov.functional.learnspringboot;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

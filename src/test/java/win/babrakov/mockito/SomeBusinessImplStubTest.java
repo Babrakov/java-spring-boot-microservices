@@ -1,6 +1,7 @@
 package win.babrakov.mockito;
 
 import org.junit.jupiter.api.Test;
+import win.babrakov.functional.mockito.SomeBusinessImpl;
 
 import static org.junit.jupiter.api.Assertions.*;
 

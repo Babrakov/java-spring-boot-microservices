@@ -1,10 +1,10 @@
-package win.babrakov.jpa;
+package win.babrakov.functional.jpa;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Repository;
-import win.babrakov.model.Course;
+import win.babrakov.functional.model.Course;
 
 @Repository
 @Transactional

@@ -1,7 +1,7 @@
-package win.babrakov.springdata;
+package win.babrakov.functional.springdata;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import win.babrakov.model.Course;
+import win.babrakov.functional.model.Course;
 
 import java.util.List;
 

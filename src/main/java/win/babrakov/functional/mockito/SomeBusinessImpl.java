@@ -1,4 +1,4 @@
-package win.babrakov.mockito;
+package win.babrakov.functional.mockito;
 
 public class SomeBusinessImpl {
 

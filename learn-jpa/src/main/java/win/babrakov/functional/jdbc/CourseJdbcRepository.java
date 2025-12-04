@@ -1,10 +1,10 @@
-package win.babrakov.jdbc;
+package win.babrakov.functional.jdbc;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
-import win.babrakov.model.Course;
+import win.babrakov.functional.model.Course;
 
 @Repository
 @RequiredArgsConstructor

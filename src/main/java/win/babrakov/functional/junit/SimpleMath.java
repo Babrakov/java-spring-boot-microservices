@@ -1,4 +1,4 @@
-package win.babrakov.junit;
+package win.babrakov.functional.junit;
 
 public class SimpleMath {
 

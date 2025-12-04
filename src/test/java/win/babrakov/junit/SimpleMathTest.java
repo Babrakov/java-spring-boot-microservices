@@ -1,6 +1,7 @@
 package win.babrakov.junit;
 
 import org.junit.jupiter.api.Test;
+import win.babrakov.functional.junit.SimpleMath;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

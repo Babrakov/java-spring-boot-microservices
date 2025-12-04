@@ -24,6 +24,7 @@
     <modules>
         <module>learn-maven</module>
         <module>learn-jpa</module>
+        <module>functional-programming</module>
     </modules>
     <scm>
 		<connection/>
