@@ -6,16 +6,19 @@ public class FunctionalProgramming {
 
     public static void main(String[] args) {
 
-        printAllNumbersInListFunctional(List.of(13,4,15,17,18,42,13));
+        List<Integer> numbers = List.of(13, 4, 15, 17, 18, 42, 13);
+        printAllNumbersInListFunctional(numbers);
+        printEvenNumbersInListFunctional(numbers);
 
-    }
-
-    private static void print(int number){
-        System.out.println(number);
     }
 
     private static void printAllNumbersInListFunctional(List<Integer> numbers) {
+        numbers.forEach(System.out::println);
+    }
+
+    private static void printEvenNumbersInListFunctional(List<Integer> numbers) {
         numbers.stream()
-                .forEach(FunctionalProgramming::print);
+                .filter(number -> number % 2 == 0)
+                .forEach(System.out::println);
     }
 }
