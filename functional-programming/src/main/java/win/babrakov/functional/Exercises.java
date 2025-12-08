@@ -7,9 +7,10 @@ public class Exercises {
     public static void main(String[] args) {
 
         List<String> courses = List.of("Spring", "Spring Boot", "API", "Microservices", "AWS", "Docker", "Kubernetes");
-        printAllCourses(courses);
-        printCoursesWithSpring(courses);
-        printCoursesWithAtLeastFourLetters(courses);
+//        printAllCourses(courses);
+//        printCoursesWithSpring(courses);
+//        printCoursesWithAtLeastFourLetters(courses);
+        printCoursesNameLength(courses);
 
     }
 
@@ -27,6 +28,12 @@ public class Exercises {
 
     private static void printAllCourses(List<String> courses) {
         courses.forEach(System.out::println);
+    }
+
+    private static void printCoursesNameLength(List<String> courses) {
+        courses.stream()
+                .map(c -> c + " " + c.length())
+                .forEach(System.out::println);
     }
 
 }
